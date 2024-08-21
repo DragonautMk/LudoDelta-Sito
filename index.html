@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LudoDelta - La Tana dei Goblin Salerno">
+    <meta name="keywords" content="Giochi da tavolo, Videogiochi, Giochi di ruolo, Salerno, Campania, Associazione">
+    <title>LudoDelta - La Tana dei Goblin Salerno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="logocontainer">
+            <img src="media/Logo generale.png" alt="Delta bianco con sfondo blu" class="logo">
+        </div>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/aclr.ludodelta" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/ludo.delta/" target="_blank">Instagram</a></li>
+            <li><a href="https://discord.com/invite/gFZ2DhmQ5t" target="_blank">Discord</a></li>
+            <li><a href="https://t.me/+xzvIu9EtR49kYjVk" target="_blank">Telegram</a></li>
+        </ul>
+    </nav>
+    <!-- Fine navbar -->
+
+    <!-- header -->
+    <main>
+        <header>
+            <div class="headercard">
+                <h1 class="TitoloHeader">LudoDelta</h1>
+                <h2 class="SottotitoloHeader">La Tana dei Goblin Salerno</h2>
+            </div>
+        </header>
+        <!-- Fine header -->
+
+        <!-- Cards -->
+        <section class="Cardsection">
+            <h3 class="titolocardsection">Le nostre attività</h3>
+            <div class="cardisplay">
+                <article class="Cards1">
+                    <h4 class="TitoloCards">Giochi da Tavolo</h4>
+                    <p class="ArticoloCarte">Da anni studiamo e spieghiamo giochi da tavolo per migliorare le capacità dell'individuo e favorire la socialità.</p>
+                </article>
+
+                <article class="Cards2">
+                    <h4 class="TitoloCards">Giochi di Ruolo</h4>
+                    <p class="ArticoloCarte">Offriamo un posto tranquillo per ospitare le tue sessioni, vieni a giocare e masterare da noi!</p>
+                </article>
+
+                <article class="Cards3">
+                    <h4 class="TitoloCards">Videogiochi</h4>
+                    <p class="ArticoloCarte">Una sala ricca di Videogiochi classici e moderni per giocare insieme e contro appassionati come te!</p>
+                </article>
+
+                <article class="Cards4">
+                    <h4 class="TitoloCards">Gite</h4>
+                    <p class="ArticoloCarte">Durante il nostro anno sociale organizziamo visite gratuite a mostre in tutta la Campania!</p>
+                </article>
+
+                <article class="Cards5">
+                    <h4 class="TitoloCards">Fiere</h4>
+                    <p class="ArticoloCarte">Da anni partecipiamo a fiere in Campania per promuovere il gioco intelligente. Bellissime occasioni per divertirsi e crescere insieme.</p>
+                </article>
+            </div>
+        </section>
+        <!-- Fine Cards -->
+
+        <!-- Form -->
+        <section class="SezioneForm">
+            <h3 class="TitoloForm">Contattaci per maggiori informazioni:</h3>
+            <form action="send_email.php" method="POST">
+                <div class="contenitoreinput">
+                    <label class="Nome" for="nome">Nome e Cognome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="ES: LudoDelta - La Tana dei Goblin Salerno" required>
+                </div>
+                <div class="contenitoreinput">
+                    <label class="Nome" for="email">Tua Email:</label>
+                    <input type="email" id="email" name="email" placeholder="ES: ludodelta.aclr@gmail.com" required>
+                </div>
+                <div class="contenitoreinput">
+                    <label class="Nome" for="richiesta">Richiesta:</label>
+                    <textarea cols="30" rows="10" id="richiesta" name="richiesta" placeholder="ES: Vorrei avere informazioni per partecipare ad un vostro evento e provare giochi da tavolo / Vorrei avere informazioni per avervi ad un mio avento/ Altro" required></textarea>
+                </div>
+                <div class="contenitorebutton">
+                    <button class="btn" type="submit">Invia!</button>
+                </div>
+            </form>
+        </section>
+        <!-- Fine Form -->
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <ul class="footerlinks">
+            <li><a href="https://goblins.net/" target="_blank">La Tana Dei Goblin</a></li>
+            <li><a href="https://www.facebook.com/groups/ludodelta/" target="_blank">Gruppo Facebook</a></li>
+        </ul>
+        <div class="Copyright">
+            @Copyright Michele Savarese 2024
+            <a class="CopyrightLink" href="https://it.linkedin.com/in/michele-savarese-724632144" target="_blank">Linkedin</a>
+        </div>
+    </footer>
+    <!-- fine footer -->
+</body>
+</html>

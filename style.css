@@ -1,0 +1,341 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+/* header */
+header {
+    height: 100vh;
+    background-image: url(media/header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headercard {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* nav */
+nav {
+    background-color: rgba(127, 193, 255, 0.705);
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 10px solid black;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.TitoloHeader {
+    color: navy;
+    font-size: 2em;
+    text-shadow: 2px 2px rgb(3, 3, 212);
+}
+
+.SottotitoloHeader {
+    color: darkgreen;
+    font-size: 1.5em;
+    text-shadow: 2px 2px rgb(1, 58, 1);
+}
+
+.logocontainer {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo {
+    height: 60px;
+    box-shadow: 2px 2px whitesmoke;
+    border-radius: 50%;
+}
+
+/* cards */
+.Cardsection {
+    padding: 20px 10px;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+}
+
+.cardisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.titolocardsection {
+    font-size: 2em;
+    text-align: center;
+}
+
+.Cards1{
+    color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px blue;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    background-image: url(media/gdt2.png);
+}
+
+.Cards2{
+    color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px blue;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    background-image: url(media/gdr2.png);
+}
+
+.Cards3{
+    color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px blue;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    background-image: url(media/videogiochi.png);
+}
+
+.Cards4{
+    color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px blue;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    background-image: url(media/gite.png);
+}
+
+.Cards5{
+    color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px blue;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    background-image: url(media/fiere.png);
+}
+
+.TitoloCards {
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+}
+
+.ArticoloCarte {
+    color: whitesmoke;
+    font-size: 1em;
+    text-shadow: 2px 2px black;
+    background-color: rgba(0, 0, 0, 0.35);
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* form */
+.SezioneForm {
+    height: 100vh;
+    background-image: url(media/form.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.TitoloForm {
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.35);
+    margin: 0 auto;
+    box-shadow: 5px 5px blue;
+    padding: 20px;
+}
+
+.Nome {
+    font-size: 1em;
+    font-weight: 600;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    margin-bottom: 5px;
+}
+
+.contenitoreinput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contenitorebutton {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px blue;
+}
+
+/* footer */
+footer {
+    background-color: rgba(127, 193, 255, 0.705);
+    min-height: 60px;
+    color: black;
+    font-size: 0.8em;
+    border-top: 10px solid rgba(0, 0, 255, 0.61);
+    padding: 10px;
+}
+
+.footerlinks {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.footerlinks li {
+    margin: 0 10px;
+}
+
+.Copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CopyrightLink {
+    margin-top: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .TitoloHeader {
+        font-size: 1.5em;
+    }
+
+    .SottotitoloHeader {
+        font-size: 1em;
+    }
+
+    .cardisplay {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titolocardsection {
+        font-size: 1.5em;
+    }
+
+    article[class^="Cards"] {
+        max-width: 90%;
+    }
+
+    form {
+        margin-left: 0;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logocontainer {
+        margin: 0;
+    }
+
+    .social {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+}
