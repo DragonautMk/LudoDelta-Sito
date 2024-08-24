@@ -98,7 +98,8 @@ nav {
     text-align: center;
 }
 
-.Cards1,.Cards2,.Cards3,.Cards4,.Cards5{ color: whitesmoke;
+.Cards1,.Cards2,.Cards3,.Cards4,.Cards5{
+    color: whitesmoke;
     background-position: center;
     background-size: cover;
     border: 3px solid black;
