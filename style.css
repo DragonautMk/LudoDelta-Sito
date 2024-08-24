@@ -38,6 +38,8 @@ nav {
     justify-content: space-between;
     padding: 0 20px;
     border-bottom: 10px solid black;
+    position: sticky;
+    top: 0px;
 }
 
 .social {
@@ -96,8 +98,7 @@ nav {
     text-align: center;
 }
 
-.Cards1{
-    color: whitesmoke;
+.Cards1,.Cards2,.Cards3,.Cards4,.Cards5{ color: whitesmoke;
     background-position: center;
     background-size: cover;
     border: 3px solid black;
@@ -111,79 +112,25 @@ nav {
     display: inline-block;
     width: 100%;
     max-width: 300px;
-    background-image: url(media/gdt2.png);
+}
+.Cards1{
+       background-image: url(media/gdt2.png);
 }
 
 .Cards2{
-    color: whitesmoke;
-    background-position: center;
-    background-size: cover;
-    border: 3px solid black;
-    border-radius: 20px;
-    margin: 10px;
-    box-shadow: 2px 2px blue;
-    padding: 10px;
-    text-align: center;
-    box-sizing: border-box;
-    word-wrap: break-word;
-    display: inline-block;
-    width: 100%;
-    max-width: 300px;
-    background-image: url(media/gdr2.png);
+        background-image: url(media/gdr2.png);
 }
 
 .Cards3{
-    color: whitesmoke;
-    background-position: center;
-    background-size: cover;
-    border: 3px solid black;
-    border-radius: 20px;
-    margin: 10px;
-    box-shadow: 2px 2px blue;
-    padding: 10px;
-    text-align: center;
-    box-sizing: border-box;
-    word-wrap: break-word;
-    display: inline-block;
-    width: 100%;
-    max-width: 300px;
-    background-image: url(media/videogiochi.png);
+        background-image: url(media/videogiochi.png);
 }
 
 .Cards4{
-    color: whitesmoke;
-    background-position: center;
-    background-size: cover;
-    border: 3px solid black;
-    border-radius: 20px;
-    margin: 10px;
-    box-shadow: 2px 2px blue;
-    padding: 10px;
-    text-align: center;
-    box-sizing: border-box;
-    word-wrap: break-word;
-    display: inline-block;
-    width: 100%;
-    max-width: 300px;
-    background-image: url(media/gite.png);
+      background-image: url(media/gite.png);
 }
 
 .Cards5{
-    color: whitesmoke;
-    background-position: center;
-    background-size: cover;
-    border: 3px solid black;
-    border-radius: 20px;
-    margin: 10px;
-    box-shadow: 2px 2px blue;
-    padding: 10px;
-    text-align: center;
-    box-sizing: border-box;
-    word-wrap: break-word;
-    display: inline-block;
-    width: 100%;
-    max-width: 300px;
-    background-image: url(media/fiere.png);
+       background-image: url(media/fiere.png);
 }
 
 .TitoloCards {
