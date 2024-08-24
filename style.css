@@ -115,8 +115,9 @@ flex-wrap: wrap;
     word-wrap: break-word;
     display: inline-block;
     width: 100%;
-    flex: 1 1 30%; /* Le prime tre carte occupano ciascuna il 30% della larghezza del contenitore */
-    max-width: 30%; /* Limita la larghezza massima al 30% del contenitore */
+    flex: 1 1 25%; /* Le prime tre carte occupano ciascuna il 30% della larghezza del contenitore */
+    max-width: 25%; /* Limita la larghezza massima al 30% del contenitore */
+    flex-wrap: wrap;
 }
 .Cards1{
        background-image: url(media/gdt2.png);
