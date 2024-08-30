@@ -1,9 +1,7 @@
 *{    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-body {
-    margin: 0;
-}
-
 /* nav */
 nav {
     background-color: rgba(127, 193, 255, 0.705);
@@ -11,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 5;
+    margin: 0px 5px;
     border-bottom: 5px solid black;
     position: sticky;
     top: 0px;
@@ -35,12 +33,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0;
-    margin: 0;
-flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
 }
 
-.navbaricons{
+.navbaricons {
     height: 10vh;
 }
 
@@ -74,7 +71,7 @@ header {
 }
 
 
-.imaginami{
+.imaginami {
     max-height: 18vh;
     border-radius: 50px;
     margin-right: 50px;
@@ -132,23 +129,23 @@ header {
     max-width: 25%; /* Limita la larghezza massima al 30% del contenitore */
     flex-wrap: wrap;
 }
-.Cards1{
+.Cards1 {
        background-image: url(media/gdt2.png);
 }
 
-.Cards2{
+.Cards2 {
         background-image: url(media/gdr2.png);
 }
 
-.Cards3{
+.Cards3 {
         background-image: url(media/videogiochi.png);
 }
 
-.Cards4{
+.Cards4 {
       background-image: url(media/gite.png);
 }
 
-.Cards5{
+.Cards5 {
        background-image: url(media/fiere.png);
 }
 
@@ -197,7 +194,7 @@ form {
     padding: 20px;
 }
 
-.Nome{
+.Nome {
     font-size: 1em;
     font-weight: 600;
     color: whitesmoke;
@@ -205,18 +202,18 @@ form {
     margin-bottom: 5px;
 }
 
-.contenitoreinput{
+.contenitoreinput {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
 
-.contenitorebutton{
+.contenitorebutton {
     display: flex;
     justify-content: center;
 }
 
-.btn{
+.btn {
     width: 100%;
     max-width: 200px;
     height: 40px;
@@ -229,7 +226,7 @@ form {
 }
 
 /* footer */
-footer{
+footer {
     background-color: rgba(127, 193, 255, 0.705);
     min-height: 60px;
     color: black;
@@ -238,16 +235,16 @@ footer{
     padding: 10px;
 }
 
-.footerlinks{
+.footerlinks {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 .footerlinks li {
-    margin: 0 10px;
+    margin: 0px 10px;
 }
 
 .Copyright {
@@ -261,23 +258,23 @@ footer{
     margin-top: 5px;
 }
 
-.listadiritti{
+.listadiritti {
 max-height: 10vh;
 display: flex;
 }
 
-.diritti{
+.diritti {
     margin-left: 20px;
 }
 
 /* Media Queries */
 @media screen and (max-width: 600px) {
-.navbar{
+.navbar {
     justify-content: flex-start;
     flex-direction: row;
 }
 
-.navbaricons{
+.navbaricons {
     max-height: 40px;
 }
     .TitoloHeader {
@@ -302,7 +299,7 @@ display: flex;
     }
 
     form {
-        margin-left: 0;
+        margin-left: 0px;
     }
 
     .btn {
@@ -314,7 +311,7 @@ display: flex;
     }
 
     .logocontainer {
-        margin: 0;
+        margin: 0px;
     }
 
     .social {
