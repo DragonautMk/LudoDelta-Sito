@@ -4,31 +4,6 @@ body {
     margin: 0;
 }
 
-/* header */
-header {
-    height: 100vh;
-    background-image: url(media/header.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.headercard {
-    width: 90%;
-    max-width: 600px;
-    height: auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.35);
-    border: 2px solid black;
-    border-radius: 20px;
-    margin: 10px;
-}
-
 /* nav */
 nav {
     background-color: rgba(127, 193, 255, 0.705);
@@ -65,11 +40,46 @@ nav {
 flex-wrap: wrap;
 }
 
-.social li {
-    margin: 0 5px;
+.navbaricons{
+    height: 10vh;
 }
 
 /* Header */
+
+header {
+    height: 100vh;
+    background-image: url(media/header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headercard {
+    width: 90%;
+    max-width: 600px;
+    height: 20vh;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imaginami{
+    max-height: 18vh;
+    border-radius: 50px;
+    margin-right: 50px;
+    box-shadow: 1px 1px rgba(107, 98, 98, 0.418);
+}
 
 .TitoloHeader {
     color: navy;
@@ -167,7 +177,6 @@ flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;
-    margin-bottom: 10px;
 }
 
 .TitoloForm {
@@ -188,7 +197,7 @@ form {
     padding: 20px;
 }
 
-.Nome {
+.Nome{
     font-size: 1em;
     font-weight: 600;
     color: whitesmoke;
@@ -196,18 +205,18 @@ form {
     margin-bottom: 5px;
 }
 
-.contenitoreinput {
+.contenitoreinput{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
 
-.contenitorebutton {
+.contenitorebutton{
     display: flex;
     justify-content: center;
 }
 
-.btn {
+.btn{
     width: 100%;
     max-width: 200px;
     height: 40px;
@@ -220,7 +229,7 @@ form {
 }
 
 /* footer */
-footer {
+footer{
     background-color: rgba(127, 193, 255, 0.705);
     min-height: 60px;
     color: black;
@@ -229,7 +238,7 @@ footer {
     padding: 10px;
 }
 
-.footerlinks {
+.footerlinks{
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -263,15 +272,13 @@ display: flex;
 
 /* Media Queries */
 @media screen and (max-width: 600px) {
-
-nav{
-    max-height: 20vh;
-justify-content: flex-start;
-flex-direction: row;
+.navbar{
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
 .navbaricons{
-    max-width: 40px;
+    max-height: 40px;
 }
     .TitoloHeader {
         font-size: 1.5em;
