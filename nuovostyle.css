@@ -1,0 +1,86 @@
+/* nav */
+.logo{
+max-height: 60px;
+}
+
+.customNavbar{
+max-height: 60px;
+background-color: whitesmoke;
+border-bottom: 5px solid #37392E;
+}
+
+.ludodelta{
+    color: #19647E;
+}
+
+
+.nav-link{
+    color: #37392E
+}
+
+.nav-link:hover{
+color: #0f6378e6;
+}
+
+.dropdown{
+    font-size: 20px;
+}
+
+.socialColor{
+    color: #37392E;
+    font-size: 30px;
+}
+
+.socialColor i:hover{
+    color: #19647E;
+    font-size: 30px;
+}
+
+
+/* fine nav */
+
+/* header */
+.headerbackground{
+    background-image: url(media/header.jpg);
+    background-size: cover;
+}
+
+.frontman{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imaginami {
+    max-height: 18vh;
+    border-radius: 50px;
+    margin-right: 10px;
+    box-shadow: 1px 1px rgba(107, 98, 98, 0.418);
+}
+
+.TitoloHeader {
+    color: navy;
+    font-size: 2em;
+    text-shadow: 2px 2px rgb(3, 3, 212);
+}
+
+.SottotitoloHeader {
+    color: darkgreen;
+    font-size: 1.5em;
+    text-shadow: 2px 2px rgb(1, 58, 1);
+}
+
+
+
+
+@media screen and (min-width:991) {
+    .customNavbar{
+        max-height: 25vh !important;
+    }
+}

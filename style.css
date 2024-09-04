@@ -1,23 +1,25 @@
-*{    font-family: Verdana, Geneva, Tahoma, sans-serif;
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
 }
+
 /* nav */
+
 nav {
     background-color: rgba(127, 193, 255, 0.705);
-    max-height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 5px solid black;
     position: sticky;
     top: 0px;
+    max-height: 60px;
 }
 
 .logocontainer {
     display: flex;
     align-items: center;
-    margin-right: 20px;
 }
 
 .logo {
@@ -26,17 +28,26 @@ nav {
     border-radius: 50%;
 }
 
+.pagine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagine li{
+    padding-left: 80px;
+    list-style: none;
+}
+
 .social {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0px;
-    margin: 0px;
 }
 
 .navbaricons {
-    height: 10vh;
+    max-height: 40px;
 }
 
 /* Header */
@@ -55,14 +66,11 @@ header {
 }
 
 .headercard {
-    width: 90%;
-    max-width: 600px;
     height: 20vh;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.35);
     border: 2px solid black;
     border-radius: 20px;
-    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +79,7 @@ header {
 .imaginami {
     max-height: 18vh;
     border-radius: 50px;
-    margin-right: 50px;
+    margin-right: 10px;
     box-shadow: 1px 1px rgba(107, 98, 98, 0.418);
 }
 
@@ -115,7 +123,6 @@ header {
     border-radius: 0px 20px 30px 50px;
     margin: 10px;
     box-shadow: 2px 2px blue;
-    /* padding: 10px; */
     text-align: center;
     box-sizing: border-box;
     word-wrap: break-word;
@@ -135,24 +142,57 @@ header {
     text-align: center;
 }
 
+.giochidatavolo{
+    background:linear-gradient(0deg, #D9E5D6 27%, #F7A072 100%);
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.containerarticolo{
+    height: 50%;
+    width: 80%;
+background-color: #EDDEA4;
+border: 2px solid F9CECE;
+border-radius: 45px;
+}
+
+div h1,h2{
+color: #0FA3B1;
+}
+
+.articolosezione{
+    color: rgba(16, 204, 221, 0.801);
+    display: flex;
+    flex-direction: column;
+}
+.articolosezione li{
+    width: 90%;
+    list-style: disc;
+    margin: 10px 0px 10px 30px;
+}
+
 .Cards1 {
-       background-image: url(media/gdt2.png);
+    background-image: url(media/gdt2.png);
 }
 
 .Cards2 {
-        background-image: url(media/gdr2.png);
+    background-image: url(media/gdr2.png);
 }
 
 .Cards3 {
-        background-image: url(media/videogiochi.png);
+    background-image: url(media/videogiochi.png);
 }
 
 .Cards4 {
-      background-image: url(media/gite.png);
+    background-image: url(media/gite.png);
+    background-position: top;
 }
 
 .Cards5 {
-       background-image: url(media/fiere.png);
+    background-image: url(media/fiere.png);
 }
 
 .TitoloCards {
@@ -235,55 +275,54 @@ form {
 /* footer */
 footer {
     background-color: rgba(127, 193, 255, 0.705);
-    min-height: 60px;
+    min-height: auto;
     color: black;
     font-size: 0.8em;
     border-top: 10px solid rgba(0, 0, 255, 0.61);
     padding: 10px;
-}
-
-.footerlinks {
-    list-style: none;
     display: flex;
-    justify-content: space-around;
-    padding: 0px;
-    margin: 0px;
-}
-
-.footerlinks li {
-    margin: 0px 10px;
-}
-
-.Copyright {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
-
-.CopyrightLink {
-    margin-top: 5px;
+    align-items: start;
 }
 
 .listadiritti {
-max-height: 10vh;
-display: flex;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding-right: 10px;
 }
 
-.diritti {
+.listadiritti li {
     margin-left: 20px;
 }
 
 /* Media Queries */
-@media screen and (max-width: 600px) {
-.navbar {
-    justify-content: flex-start;
-    flex-direction: row;
-}
 
-.navbaricons {
-    max-height: 40px;
-}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: smaller;
+        max-height: 21vh;
+    }
+
+
+    .social {
+        justify-content: space-around;
+    }
+
+    .pagine{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .pagine li{
+        padding-left: 10px;
+    }
+
     .TitoloHeader {
         font-size: 1.5em;
     }
@@ -302,12 +341,12 @@ display: flex;
     }
 
     article[class^="Cards"] {
-        min-height: 30vh;
-        max-width: 90%;
+        min-height: 40vh;
+        max-width: 60%;
     }
 
     .sfumatura{
-        min-height: 30vh;
+        min-height: 40vh;
     }
 
     form {
@@ -318,17 +357,22 @@ display: flex;
         width: 100%;
     }
 
-    nav {
+}
+
+@media screen and (max-width: 370px) {
+    nav{
+        max-height: 30vh;
+    }
+
+    .pagine li{
+        padding-left: 2px;
+    }
+
+    footer{
+        max-height: 40vh;
+    }
+
+    .listadiritti{
         flex-direction: column;
     }
-
-    .logocontainer {
-        margin: 0px;
     }
-
-    .social {
-        width: 100%;
-        justify-content: space-around;
-        margin-top: 10px;
-    }
-}
